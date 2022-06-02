@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBF1A9"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/txt_kullaniciAdi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="25dp"
+        android:hint="Kullanici Adi"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"></EditText>
+
+    <EditText
+        android:id="@+id/txt_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20sp"
+        android:layout_marginRight="25dp"
+        android:hint="Sifre"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:inputType="numberPassword"
+        android:textStyle="bold|italic"></EditText>
+
+    <Button
+        android:id="@+id/btn_girisYap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:onClick="girisYap"
+        android:text="Giris Yap"
+        android:textSize="20sp"
+        android:textStyle="italic|bold"
+
+        ></Button>
+</LinearLayout>

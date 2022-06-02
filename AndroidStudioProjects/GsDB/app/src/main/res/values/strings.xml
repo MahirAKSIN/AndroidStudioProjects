@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GsDB</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="com.example.gsdb_kullanici_Adi">Mahir Aksin</string>
+    <string name="com.example.gsdb_kullanici_Sifre">123</string>
+
+</resources>

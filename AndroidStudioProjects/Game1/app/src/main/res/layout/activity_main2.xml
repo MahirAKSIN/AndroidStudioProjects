@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    app:layout_anchorGravity="center"
+    tools:context=".MainActivity2">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.Game1.AppBarOverlay">
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/mahir"
+        android:layout_width="411dp"
+        android:layout_height="605dp"
+        android:layout_gravity="center"
+        app:columnCount="4"
+        app:layout_anchorGravity="center"
+        app:rowCount="4">
+
+        <TextView
+
+            android:id="@+id/txt_Isim"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:gravity="center"
+            app:layout_column="0"
+            app:layout_row="0" />
+
+        <Button
+            android:id="@+id/btn_star"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/star"
+            android:gravity="center"
+            app:layout_column="0"
+            app:layout_row="2" />
+
+
+    </androidx.gridlayout.widget.GridLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

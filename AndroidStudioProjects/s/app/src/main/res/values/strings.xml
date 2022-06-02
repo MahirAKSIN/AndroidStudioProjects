@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name" translatable="false">SharedPpreferenced</string>
+    <string name="kullanici_adi">Mahir</string>
+    <string name="kullanici_sifre">4747</string>
+
+    <string name="giris_tercih">"com.example.s_giris_tercihi"</string>
+    <string name="giris_durumu_tercihi">"com.example.s_giris_durum_tercihi"</string>
+    <string name="Mahir">"com.example.s_AKSIN"</string>
+
+</resources>

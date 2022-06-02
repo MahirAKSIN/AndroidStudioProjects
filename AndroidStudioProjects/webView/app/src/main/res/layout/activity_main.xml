@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/txt_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"></EditText>
+
+    <WebView
+        android:id="@+id/web_url"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btn"
+        android:layout_below="@+id/txt_url"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="#E7F368"></WebView>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Adrese Git"
+        android:textSize="25dp"
+        android:textStyle="bold"></Button>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/btn"
+        android:layout_below="@+id/web_url"
+        android:textSize="25dp"
+        android:text="Temizle"
+        android:layout_marginLeft="10dp"
+></Button>
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".GirisYapActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="107dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo"></ImageView>
+
+    <EditText
+        android:id="@+id/xt_emailG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/colorAccent"
+        android:hint="E-mail"
+        android:minHeight="48dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18dp"
+        android:textStyle="bold"></EditText>
+
+    <EditText
+        android:id="@+id/xt_sifreG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/colorAccent"
+        android:hint="Sifre"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18dp"
+        android:textStyle="bold"></EditText>
+
+    <Button
+        android:id="@+id/btn_GirisG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/cardview_shadow_start_color"
+        android:padding="1dp"
+        android:text="Giris"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold"></Button>
+
+    <TextView
+        android:id="@+id/txtkayitSayfasinaGit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="15dp"
+        android:padding="9dp"
+        android:text="Mevcut hesabiniz yok mu? Kayit yapiniz..."
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="13dp"
+        android:textStyle="bold"
+
+        ></TextView>
+</LinearLayout>

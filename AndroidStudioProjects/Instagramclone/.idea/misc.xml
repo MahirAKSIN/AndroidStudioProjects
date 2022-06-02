@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/inspi/AndroidStudioProjects/Instagramclone/app/src/main/res/drawable-anydpi/ic_arama.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/inspi/AndroidStudioProjects/Instagramclone/app/src/main/res/drawable-anydpi/ic_arama_Light.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/inspi/AndroidStudioProjects/Instagramclone/app/src/main/res/drawable-anydpi/ic_ekle.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/inspi/AndroidStudioProjects/Instagramclone/app/src/main/res/drawable-anydpi/ic_home.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/inspi/AndroidStudioProjects/Instagramclone/app/src/main/res/drawable-anydpi/ic_kalp.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/inspi/AndroidStudioProjects/Instagramclone/app/src/main/res/drawable-anydpi/ic_person.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/inspi/AndroidStudioProjects/Instagramclone/app/src/main/res/drawable/butonsiyah.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/inspi/AndroidStudioProjects/Instagramclone/app/src/main/res/drawable/button.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/inspi/AndroidStudioProjects/Instagramclone/app/src/main/res/drawable/editext.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/inspi/AndroidStudioProjects/Instagramclone/app/src/main/res/layout/activity_ana_sayfa.xml" value="0.2421875" />
+        <entry key="..\:/Users/inspi/AndroidStudioProjects/Instagramclone/app/src/main/res/layout/activity_baslangic.xml" value="0.2421875" />
+        <entry key="..\:/Users/inspi/AndroidStudioProjects/Instagramclone/app/src/main/res/layout/activity_giris_yap.xml" value="0.2421875" />
+        <entry key="..\:/Users/inspi/AndroidStudioProjects/Instagramclone/app/src/main/res/layout/activity_gonderi.xml" value="0.2421875" />
+        <entry key="..\:/Users/inspi/AndroidStudioProjects/Instagramclone/app/src/main/res/layout/activity_kaydol.xml" value="0.2421875" />
+        <entry key="..\:/Users/inspi/AndroidStudioProjects/Instagramclone/app/src/main/res/layout/fragment_arama.xml" value="0.264" />
+        <entry key="..\:/Users/inspi/AndroidStudioProjects/Instagramclone/app/src/main/res/layout/fragment_arama2.xml" value="0.2421875" />
+        <entry key="..\:/Users/inspi/AndroidStudioProjects/Instagramclone/app/src/main/res/layout/fragment_bildirim.xml" value="0.2421875" />
+        <entry key="..\:/Users/inspi/AndroidStudioProjects/Instagramclone/app/src/main/res/layout/fragment_call.xml" value="0.18385416666666668" />
+        <entry key="..\:/Users/inspi/AndroidStudioProjects/Instagramclone/app/src/main/res/layout/fragment_fullscreen.xml" value="0.2421875" />
+        <entry key="..\:/Users/inspi/AndroidStudioProjects/Instagramclone/app/src/main/res/layout/fragment_home.xml" value="0.2421875" />
+        <entry key="..\:/Users/inspi/AndroidStudioProjects/Instagramclone/app/src/main/res/layout/fragment_kullanici_ogessi.xml" value="0.2421875" />
+        <entry key="..\:/Users/inspi/AndroidStudioProjects/Instagramclone/app/src/main/res/layout/fragment_profil.xml" value="0.2421875" />
+        <entry key="..\:/Users/inspi/AndroidStudioProjects/Instagramclone/app/src/main/res/layout/kullanici_ogesi.xml" value="0.2421875" />
+        <entry key="..\:/Users/inspi/AndroidStudioProjects/Instagramclone/app/src/main/res/menu/bottom_navigation.xml" value="0.2421875" />
+        <entry key="..\:/Users/inspi/AndroidStudioProjects/Instagramclone/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.13802083333333334" />
+        <entry key="..\:/Users/inspi/AndroidStudioProjects/Instagramclone/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.13802083333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/yxy_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Text Giriniz.."
+        android:minHeight="48dp"
+        android:textSize="20sp"
+        android:textStyle="bold"></EditText>
+
+    <Button
+        android:id="@+id/btn_kaydet"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="Kaydet"
+        android:paddingTop="25dp"
+        android:textAlignment="center"
+        android:background="#FFFF8D"
+        android:layout_marginTop="17dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        ></Button>
+
+    <EditText
+        android:id="@+id/txt_veriAlma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Text gelsin.."
+        android:minHeight="48dp"
+        android:textSize="20sp"
+        android:textStyle="bold"></EditText>
+
+    <Button
+        android:id="@+id/btn_veriAlma"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="Metin Al"
+        android:layout_marginTop="17dp"
+        android:textSize="20sp"
+        android:paddingTop="25dp"
+        android:textAlignment="center"
+        android:background="#FFFF8D"
+        android:textStyle="bold"></Button>
+
+
+
+</LinearLayout>

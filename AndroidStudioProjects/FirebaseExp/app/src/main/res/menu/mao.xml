@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+
+        android:id="@+id/btn_translate"
+        android:icon="@drawable/ic_translate"
+        android:title="Translate"
+        app:showAsAction="always"></item>
+    <item
+        android:id="@+id/btn_black"
+        android:icon="@drawable/ic_add"
+        android:title="ekle"
+        app:showAsAction="always">
+    </item>
+    <group
+        android:id="@+id/grp_menu"
+        android:checkableBehavior="all"
+        android:enabled="true"
+        android:menuCategory="container"
+
+        ></group>
+
+
+</menu>

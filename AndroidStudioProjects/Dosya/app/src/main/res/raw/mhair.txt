@@ -1,0 +1,175 @@
+﻿üniversitede okurken bilgisayarım olmadığı için okulun  lablarında ardunio,matlab ve c# dillerinde  kendimi geliştirmeye çaliştim.Bu çalişmalarım bana Bulent Ecevit Üniversitesinin ArGe pazarında derece yapan projeyi yapmaya cesaretlendirdi.(RFİD Konveyör) ve çalişmalarımın iş hayatında bana faydası dokundu.Şu an çaliştiğim şirkette zorunlu olarak çalişiyorum nedeni ise mezun olduktan sonra 8 ay işsiz kaldım. 8 ayın sonunda şu an çaliştiğim şirketin elektrik teknikeri olarak başladım daha sonra gelişim ve azmim sayesinde istediğim  departman olan AR-GE alındım ama hala tekniker maaşıyıla çalişmaktayım.9 aydır pandemi yüzünden kısa çalişma adi altında maaşımı tam alamamaktayım.9 ay süreçte yazılım alanında kendi gelişimimi sağlamaktayım. Youtube ve udemy platformlarında kursların çoğunu tamamladım ve sertifikar aldım.Bu alanda daha çok gelişmek için alanında iyi olan insanlardan eğitim almak istiyorum.
+
+www.linkedin.com/in/mahir-b47464544
+
+
+2+1 evde 13 kişi yaşayarak ortaokulu ve liseyi bitirdim.lise de okurken tekstilde ütücü olarak çalışıyordum.yaz aylarında da mardinde mevsimlik işci olarak çalışıyordum bu koşullarda okudum ama götürüsünden fazla getirisi oldu .
+
+
+
+C:\Users\Emre KEKLİK\Source\Repos\Restorant Otomasyonu new
+
+
+
+
+"Genç, araba mekaniği konusunda bilgili ve güçlü sosyal becerileri olan bir makine mühendisiyim. Şu an İzmir'de otomobiller için yedek parça üreten bir fabrikada yönetici mühendis olarak çalışıyorum. Bu role, aynı firmadaki 5 yıllık deneyimim sırasında müşterilerle iletişim kurmamı sağlayan yüksek iletişim becerilerim sayesinde terfi edildim. Artık profesyonel yeteneklerimi geliştirebileceğim yeni bir iş fırsatı arıyorum. Tercihen otomobil makine tasarımı ve üretimi konusunda hizmet veren, sadece mekanik bilgilerimi değil aynı zamanda sosyal ve ticari yeteneklerimi de kullanabileceğim bir iş pozisyonunda görev almak istiyorum.
+
+
+Merhaba,Ben Mahir AKSİN ,
+Şu an çalıştiğim firmadan kendimi başka alanlarda geliştirmek için başka iş arayişindayim.
+
+Bu firmada yapılan bütün projelerde yaklaşık olarak 3 yildir aktif olarak görev almaktayım.software ve hardware alaninda sorumlu olarak görevlendirildim.Firmanda projelerde aktif olarak C#,Vb.net SQLserver,SQLite ve deltaplc teknolojilerinde çalişmaktayiz .
+Çalıştığım şirkette şu ana kadar sorumlu olduğum ve destek verdiğim projeler;
+
+
+
+Torpue Station(tork ayarlama mak) projesinin hardware ve software aşamalarının %60 lık kısmında yer aldım projede c# teknoloji dilini kullandım ve bütün sql aşamalarını yaptım login ekrani,ProcessSetup ekrani ve Settings ekranini back kodlarını yazdım.Sqlserver kullanildi.
+Hardware plc kısmında görev aldım.Proje şu an Litvanya da aktif olarak kullanılıyor.
+
+Soldering Machine (Lehim kolu mak.)projesinin software yapmında takim halinde çalışıldı ve projenin Recipe ekrani,Process ekrani,settings ekrani ve service ekrani back kodlarini yazdım.SQLite  kullanildi.
+
+
+TIGD-navigation table user sisteminde aktif olarak görev aldım bu sistem  otomotiv sektöründe kabloların sağlamlık testini yapıyor. Bu sitemde vb.net teknoloji dili  ve SQLite kullanildi.Bu sistemde takım halinde çalişildi bütün aşamalarında görev aldım.
+
+
+Bülent Ecevit üniversitesi Arge  pazarı;
+
+
+Zonguldak valiliğinin mühendislik fakültesi bölümlerinin arasında yaptiği valilik arge yarişmasinda 3 kişilik takim halinde 3  lük ödülü alan RFİD-konveyör projesinin ardunio software aşamalarında %100 ünde görev aldım ve proje 5bin tl öldül kazadı,
+
+
+
+
+select * from musteriler
+
+
+
+select COUNT(*) as Sayi from adisyon where durum=0 and servisturno=2
+
+
+select paketsiparis.musteriid as MusteriID,musteriler.adi +''+ musteriler.soyadi as Musteri ,adisyon.id as AdisyonID from 
+paketsiparis inner join musteriler on  musteriler.id=paketsiparis.musteriid inner join adisyon on adisyon.id=paketsiparis.adisyonid where adisyon.durum=0
+
+
+
+select adisyon.id from adisyon inner join paketsiparis on paketsiparis.adisyonid=adisyon.id  where paketsiparis.durum=0 and	 adisyon.durum=0 and paketsiparis.musteriid=1
+
+
+
+select paketsiparis.musteriid,paketsiparis.adisyonid,musteriler.adi,musteriler.soyadi,CONVERT(varchar(10),adisyon.tarih,104) as tarih from adisyon inner join paketsiparis on paketsiparis.adisyonid=adisyon.id inner join  musteriler on musteriler.id=paketsiparis.musteriid
+where adisyon.durum=0 and adisyon.servisturno=2 and paketsiparis.musteriid=1
+
+
+
+
+import java.util.Scanner;
+
+public class For {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		int sayi = 0;
+		System.out.println("Bir sayi giriniz : ");
+		sayi = scan.nextInt();
+
+		for (int i = 1; i <= sayi; i++) {
+			for (int k = 0; k < sayi - i; k++) {
+				System.out.print(" ");
+			}
+			for (int m = 0; m < 2 * i - 1; m++) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+		for (int s = sayi - 1; s > 0; s--) {
+			for (int e = 0; e < sayi - s; e++) {
+				System.out.print(" ");
+			}
+			for (int d = 0; d < 2 * s - 1; d++) {
+				System.out.print("*");
+			}
+			System.out.println();
+
+		}
+
+	}
+}
+//    *
+//   ***
+//  *****
+// *******
+//********* 
+
+
+import java.util.*;
+
+public class main {
+
+	public static void main(String[] args) {
+
+		int bakiye = 1000, input, miktar;
+
+		Scanner scan = new Scanner(System.in);
+
+		System.out.println("Hosgeldiniz Kodlama vakti bank uygulamasina  ");
+		System.out.println("Toplam bakiyeniz : " + bakiye);
+
+		while (bakiye > 0) {
+
+			System.out.println("1-Para Yatir : ");
+			System.out.println("2-Para Cek : ");
+			System.out.println("3-Bakiye Sorgula : ");
+			System.out.println("4-Cikis Yap : ");
+
+			input = scan.nextInt();
+
+			if (input == 1) {
+				System.out.println("Yatirmak istediginiz miktari giriniz : ");
+				miktar = scan.nextInt();
+				bakiye += miktar;
+			} else if (input == 2) {
+				System.out.println("Cekmek istediginiz miktari giriniz : ");
+				miktar = scan.nextInt();
+				if (miktar < bakiye) {
+					bakiye -= miktar;
+				} else {
+					System.out.println("Bakiyeniz yetersiz");
+				}
+			}else if (input == 3) {
+				
+				System.out.println("Guncel bakiyeniz : " + bakiye);
+			}else if (input == 4) {
+				
+				System.out.println("Cikis yapiliyor");
+			}else {
+				
+				System.out.println("Istenmeyen bir durum gerceklesti isleminizi tekrarlayiniz");
+			}
+				
+		}
+		System.out.println("Tekrar bekleriz");
+	}
+}
+
+
+
+--------------------------------------------------18072021
+	if (txt_tcNo.getText().length() == 0 || txt_adSoyad.getText().length() == 0
+						|| txt_Pass.getText().length() == 0) {
+					helper.showMsg("Fill");
+				} else {
+					try {
+						Boolean control = hasta1.register(txt_adSoyad.getText(), txt_tcNo.getText(),
+								txt_Pass.getText());
+						if (control) {
+							helper.showMsg("succes");
+							LoginGUI loginGUI = new LoginGUI();
+							loginGUI.setVisible(true);
+							dispose();
+						} else
+							helper.showMsg("error");
+					} catch (SQLException e1) {
+						e1.printStackTrace();
+					}
+				}
+
